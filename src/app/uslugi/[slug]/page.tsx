@@ -2,8 +2,13 @@ import { ServicePages } from "@/data/service-pages";
 import { notFound } from "next/navigation";
 import { BentoGrid, BentoGridItem } from "@/components/ui/bento-grid";
 import { Skeleton } from "@/components/ui/skeleton-block";
+import type { Metadata } from "next";
 
-export async function generateMetadata({ params }: { params: { slug: string } }) {
+type Props = {
+  params: Promise<{ slug: string }>;
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
 
   const page = ServicePages.find((page) => page.slug === slug);
@@ -20,7 +25,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   };
 }
 
-export default async function Slug({ params }: { params: Promise<{ slug: string }> }) {
+export default async function Slug({ params }: Props) {
   const { slug } = await params;
 
   console.log(slug);
