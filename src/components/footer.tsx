@@ -17,8 +17,7 @@ export default function Footer() {
               </div>
             </Link>
             <p className="leading-relaxed text-neutral-800">
-              Czy szukasz dobrego elektryka w Łodzi i województwie łódzkim? Świadczymy usługi elektryczne z wykorzystaniem naszej wiedzy i wieloletniego doświadczenia. Dzięki temu jesteśmy w stanie
-              sprostać nawet najbardziej wymagającym zleceniom. Sprawdź szczegóły na naszej podstronie Usługi.
+              Czy szukasz dobrego elektryka w Łodzi i województwie łódzkim? Świadczymy usługi elektryczne z wykorzystaniem naszej wiedzy i wieloletniego doświadczenia. Dzięki temu jesteśmy w stanie sprostać nawet najbardziej wymagającym zleceniom. Sprawdź szczegóły na naszej podstronie Usługi.
             </p>
           </div>
           <div className="grid lg:grid-cols-2 gap-5">
@@ -31,7 +30,7 @@ export default function Footer() {
             <div className="flex flex-col gap-2">
               <h2 className="text-lg font-bold">Usługi</h2>
               <ul className="space-y-2">
-                {Offers.map((a,i) => (
+                {Offers.map((a, i) => (
                   <li key={i}>
                     <Link href={a.href} aria-label={a.label}>
                       <Button aria-label={a.label} variant={"link"} className="cursor-pointer h-fit w-fit py-0.5 px-0 whitespace-normal text-start font-normal  border-neutral-300 text-base group hover:text-[#FF6600]">
@@ -46,7 +45,12 @@ export default function Footer() {
         </div>
         <div className="p-6 flex flex-col gap-2 sm:flex-row sm:justify-between w-full">
           <p className="text-sm text-neutral-700">© {new Date().getFullYear()} EL ROB Elektro Usługi Robert Król. Wszelkie prawa zastrzeżone.</p>
-          <p className="text-sm text-neutral-700">Projekt i wykonanie: <Link href={"https://kubalekdev.pl/"} className="text-[#FF6600]">KubalekDev</Link></p>
+          <p className="text-sm text-neutral-700">
+            Projekt i wykonanie:{" "}
+            <Link href={"https://kubalekdev.pl/"} className="text-[#FF6600]">
+              KubalekDev
+            </Link>
+          </p>
         </div>
       </div>
     </footer>

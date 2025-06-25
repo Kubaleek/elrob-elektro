@@ -15,9 +15,7 @@ export default function Permission() {
       <section className="max-w-5xl mx-auto border-x  w-full h-full lg:min-h-[500px] flex flex-col mt-6 pb-6">
         <div className="p-6 grid lg:grid-cols-1 gap-6 md:gap-9">
           <div>
-            <p className="h-9 inline-flex items-center justify-center px-5 text-xs font-medium tracking-wider border border-dashed uppercase font-mono rounded-full md:text-sm md:h-10 bg-bg-default text-[#999] border-neutral-400">
-              Uprawnienia
-            </p>
+            <p className="h-9 inline-flex items-center justify-center px-5 text-xs font-medium tracking-wider border border-dashed uppercase font-mono rounded-full md:text-sm md:h-10 bg-bg-default text-[#999] border-neutral-400">Uprawnienia</p>
             <div className="flex flex-col gap-1 mt-5 border-b border-dashed border-neutral-400 pb-4">
               <h2 className="text-2xl md:text-4xl font-bold leading-relaxed tracking-tight">
                 Działamy Zgodnie ze Standardami – <span className="text-[#FF6600]">Mamy Uprawnienia</span>

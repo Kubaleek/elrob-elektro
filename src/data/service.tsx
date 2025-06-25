@@ -18,8 +18,7 @@ export const service = [
   },
   {
     title: "Serwis i konserwacja urządzeń elektrotermicznych",
-    description:
-      "Nasza firma oferuje profesjonalny serwis oraz konserwację urządzeń elektrotermicznych, które znajdują zastosowanie w przemyśle, w tym piecach, grzałkach i innych systemach grzewczych",
+    description: "Nasza firma oferuje profesjonalny serwis oraz konserwację urządzeń elektrotermicznych, które znajdują zastosowanie w przemyśle, w tym piecach, grzałkach i innych systemach grzewczych",
     header: <Skeleton />,
     icon: <KeySquare className="h-4 w-4 text-neutral-500" />,
     className: "md:col-span-1 bg-transparent border-dashed border-neutral-600 shadow-md",
@@ -31,7 +30,7 @@ export const service = [
     icon: <Plug2 className="h-4 w-4 text-neutral-500" />,
     className: "md:col-span-1 bg-transparent border-dashed border-neutral-600 shadow-md",
   },
-    {
+  {
     title: "Instalacja i konserwacja oświetlenia ulicznego",
     description: "EL-ROB Elektro Usługi oferuje kompleksową obsługę w zakresie projektowania, montażu i konserwacji oświetlenia ulicznego.",
     header: <Skeleton />,

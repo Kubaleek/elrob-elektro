@@ -19,11 +19,9 @@ export default function Hero() {
             <h1 className="text-2xl md:text-4xl font-bold leading-relaxed tracking-tight">
               EL ROB <span className="text-[#FF6600]">Elektro Usługi</span>
             </h1>
-            <p className="text-base leading-relaxed">
-              Czy szukasz dobrego elektryka w Łodzi i województwie łódzkim? Świadczymy usługi elektryczne z wykorzystaniem naszej wiedzy i wieloletniego doświadczenia. Dzięki temu jesteśmy w stanie sprostać nawet najbardziej wymagającym zleceniom.
-            </p>
+            <p className="text-base leading-relaxed">Czy szukasz dobrego elektryka w Łodzi i województwie łódzkim? Świadczymy usługi elektryczne z wykorzystaniem naszej wiedzy i wieloletniego doświadczenia. Dzięki temu jesteśmy w stanie sprostać nawet najbardziej wymagającym zleceniom.</p>
           </div>
-            <ElectricOverlay />
+          <ElectricOverlay />
           <div className="absolute inset-0 top-12 bg-[#FF6600]/25 blur-3xl z-[-1] w-1/5 h-2/5" />
           <div className="absolute right-0 top-auto bottom-0  bg-[#2962FF]/25 blur-3xl z-[0] w-1/5 h-3/5" />
         </div>
