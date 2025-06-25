@@ -24,3 +24,8 @@
 | [Prettier](https://prettier.io/)       | Narzędzie do automatycznego formatowania kodu.               |
 
 --- 
+
+<img width="1000" src="./public/strona.png" alt="elrob-elektro strona">
+
+--- 
+
