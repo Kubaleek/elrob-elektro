@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<p align="center">
+  <img width="100" src="./public/logo.svg" alt="elrob-elektro logo">
+</p>
+<h1 align="center">EL-ROB Elektro Usługi Łódź</h1>
 
-## Getting Started
+<p>
+  Strona internetowa firmy EL-ROB, świadczącej kompleksowe usługi elektryczne na terenie Łodzi i województwa łódzkiego. Projekt prezentuje ofertę, doświadczenie oraz realizacje  firmy, podkreślając rzetelność i fachowość w zakresie instalacji elektrycznych i serwisu.
+</p>
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<h2>Stack Technologiczny 🧰</h2>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+| Stack                                   | Opis                                                                                   |
+|----------------------------------------|----------------------------------------------------------------------------------------|
+| [TypeScript](https://www.typescriptlang.org/) | Język programowania oparty na JavaScript.              |
+| [Next.js](https://nextjs.org/)         | Framework oparty na React |
+| [React](https://reactjs.org/)          | Biblioteka JavaScript do tworzenia interfejsów użytkownika.                           |
+| [Tailwind CSS](https://tailwindcss.com/)| Narzędzie CSS oparte na klasach użytkowych, pozwalające na szybkie tworzenie UI.     |
+| [Shadcn](https://ui.shadcn.com/)       | Zestaw dostępnych, komponowalnych komponentów UI opartych na Tailwind CSS i Radix UI. |
+| [GitHub Actions](https://github.com/features/actions) | Narzędzie do automatyzacji zadań w repozytorium GitHub.                          |
+| [Husky](https://typicode.github.io/husky/)| Narzędzie do uruchamiania skryptów Git hook, np. przed commitami lub pushami.         |
+| [ESLint](https://eslint.org/)          | Narzędzie do lintowania kodu JavaScript/TypeScript.                         |
+| [Prettier](https://prettier.io/)       | Narzędzie do automatycznego formatowania kodu.               |
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+--- 
