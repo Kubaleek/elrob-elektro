@@ -20,7 +20,7 @@ export default function Services() {
               elastycznemu podejściu budujemy zaufanie od pierwszego kontaktu.
             </p>
           </div>
-          <BentoGrid className="max-w-4xl h-full mx-auto md:auto-rows-[20rem] gap-6 mt-8 ">
+          <BentoGrid className="max-w-4xl h-full mx-auto md:auto-rows-auto gap-6 mt-8 ">
             {service.map((a, i) => (
               <BentoGridItem
                 header={a.header}

@@ -1,4 +1,4 @@
-import { BetweenHorizontalStart, Command, KeySquare, LayoutGrid, Plug2, PlugZap } from "lucide-react";
+import { BetweenHorizontalStart, KeySquare, LayoutGrid, Plug2, PlugZap } from "lucide-react";
 import { Skeleton } from "@/components/ui/skeleton-block";
 
 export const service = [
@@ -22,13 +22,6 @@ export const service = [
       "Nasza firma oferuje profesjonalny serwis oraz konserwację urządzeń elektrotermicznych, które znajdują zastosowanie w przemyśle, w tym piecach, grzałkach i innych systemach grzewczych",
     header: <Skeleton />,
     icon: <KeySquare className="h-4 w-4 text-neutral-500" />,
-    className: "md:col-span-2 bg-transparent border-dashed border-neutral-600 shadow-md",
-  },
-  {
-    title: "Fotowoltaika Instalacje solarne",
-    description: "EL-ROB Elektro Usługi specjalizuje się w projektowaniu, montażu oraz konserwacji instalacji fotowoltaicznych.",
-    header: <Skeleton />,
-    icon: <Command className="h-4 w-4 text-neutral-500" />,
     className: "md:col-span-1 bg-transparent border-dashed border-neutral-600 shadow-md",
   },
   {
@@ -43,6 +36,6 @@ export const service = [
     description: "EL-ROB Elektro Usługi oferuje kompleksową obsługę w zakresie projektowania, montażu i konserwacji oświetlenia ulicznego.",
     header: <Skeleton />,
     icon: <PlugZap className="h-4 w-4 text-neutral-500" />,
-    className: "md:col-span-2 bg-transparent border-dashed border-neutral-600 shadow-md",
+    className: "md:col-span-1 bg-transparent border-dashed border-neutral-600 shadow-md",
   },
 ];

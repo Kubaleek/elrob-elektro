@@ -5,11 +5,6 @@ export const Offers = [
     desc: "Nasza firma oferuje kompleksowy montaż i modernizację instalacji elektrycznych, dostosowanych do indywidualnych potrzeb klienta.",
   },
   {
-    label: "Fotowoltaika Instalacje solarne",
-    href: "/uslugi/fotowoltaika-Instalacje-solarne",
-    desc: "EL-ROB Elektro Usługi specjalizuje się w projektowaniu, montażu oraz konserwacji instalacji fotowoltaicznych.",
-  },
-  {
     label: "Aparatura kontrolno-pomiarowa i automatyka",
     href: "/uslugi/aparatura-kontrolno-pomiarowa-i-automatyka",
     desc: "EL-ROB Elektro Usługi oferuje pełen zakres usług w zakresie aparatury kontrolno-pomiarowej oraz systemów automatyki do sterowania i zabezpieczania urządzeń elektrycznych.",
