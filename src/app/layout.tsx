@@ -17,20 +17,25 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "EL-ROB Elektro Usługi Łódź – Profesjonalne Instalacje Elektryczne",
   description: "EL-ROB Elektro Usługi Łódź – specjalizujemy się w instalacjach elektrycznych, modernizacjach, serwisie i pomiarach. Gwarantujemy wysoką jakość usług i bezpieczeństwo. Skontaktuj się z nami!",
+  metadataBase: new URL(`${process.env.NEXT_PUBLIC_URL}`),
+  alternates: {
+    canonical: new URL(`${process.env.NEXT_PUBLIC_URL}`),
+  },
   authors: [
     {
       name: "Kuba `Kubalek` Król",
       url: "https://kubalekdev.pl/",
     },
   ],
-  keywords: ["elektryk łódź", "usługi elektryczne łódź", "usługi elektryczne", "instalacje elektryczne Łódź"],
+  keywords: ["elektryk łódź", "usługi elektryczne łódź", "usługi elektryczne", "instalacje elektryczne Łódź", "Łódź"],
   openGraph: {
     type: "website",
     locale: "pl_PL",
-    url: "http://localhost:3000/",
+    url: process.env.NEXT_PUBLIC_URL,
     title: "EL-ROB Elektro Usługi Łódź – Profesjonalne Instalacje Elektryczne",
     description: "EL-ROB Elektro Usługi Łódź – specjalizujemy się w instalacjach elektrycznych, modernizacjach, serwisie i pomiarach. Gwarantujemy wysoką jakość usług i bezpieczeństwo. Skontaktuj się z nami!",
     siteName: "EL-ROB Elektro Usługi Łódź",
+    images: "/strona.png",
   },
   manifest: "/site.webmanifest",
 };
@@ -41,7 +46,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pl">
+    <html lang="pl" suppressHydrationWarning>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#FAFAFA]`}>
         <Navbar />
         <main>
