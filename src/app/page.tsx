@@ -1,5 +1,3 @@
-"use client";
-
 import About from "@/components/home/about";
 import Hero from "@/components/home/hero";
 import Permission from "@/components/home/permission";
