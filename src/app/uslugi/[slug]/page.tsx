@@ -28,8 +28,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function Slug({ params }: Props) {
   const { slug } = await params;
 
-  console.log(slug);
-
   const findedPage = ServicePages.find((page) => page.slug === slug);
 
   if (!findedPage) {
