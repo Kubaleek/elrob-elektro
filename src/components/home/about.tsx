@@ -1,4 +1,5 @@
 import { AudioWaveformIcon, WorkflowIcon } from "lucide-react";
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -39,12 +40,12 @@ export default function About() {
           </div>
           <div className="grid grid-cols-3 min-h-[400px]">
             <div className="border border-[#FF6600] bg-[#FF6600]/25 col-span-1"></div>
-            <div className="bg-[url(/5.jpg)] bg-center bg-no-repeat bg-cover col-span-1"></div>
+            <Image src={"/5.jpg"} alt="zdjęcia5" width={320} height={320} priority={true} className="bg-center bg-no-repeat bg-cover col-span-1"></Image>
             <div className="border border-[#FF6600] bg-[#FF6600]/25 col-span-1"></div>
-            <div className=" col-span-2 bg-[url(/1.jpg)] bg-center bg-no-repeat bg-cover"></div>
+            <Image src={"/1.jpg"} alt="zdjęcia1" width={320} height={320} priority={true} className=" col-span-2 bg-center bg-no-repeat bg-cover" />
             <div className="col-span-1 border border-[#FF6600] bg-[#FF6600]/25"></div>
             <div className="col-span-1 border border-[#FF6600] bg-[#FF6600]/25"></div>
-            <div className="col-span-2 bg-[url(/2.jpg)] bg-center bg-no-repeat bg-cover"></div>
+            <Image src={"/2.jpg"} alt="zdjęcia2" width={320} height={320} priority={true} className="col-span-2 bg-center bg-no-repeat bg-cover" />
             <div className="hidden col-span-3"></div>
           </div>
         </div>

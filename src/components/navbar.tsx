@@ -131,7 +131,7 @@ export default function Navbar() {
                 <NavigationMenuItem>
                   <NavigationMenuLink asChild>
                     <Link href="/#o-nas" aria-label="O Nas">
-                      <Button aria-label="O Nas" variant={"link"} className="cursor-pointer px-2 border-neutral-300 text-base group hover:text-[#FF6600]">
+                      <Button aria-label="O Nas" variant={"link"} className="cursor-pointer px-2 hover:bg-transparent border-neutral-300 text-base group hover:text-[#FF6600]">
                         O Nas
                       </Button>
                     </Link>
@@ -143,7 +143,7 @@ export default function Navbar() {
                     <ul className="grid gap-3 md:w-[400px] md:grid-cols-2 lg:w-[600px]">
                       {Offers.map((a, i) => (
                         <li key={i}>
-                          <NavigationMenuLink asChild className={`group ${path === a.href ? "text-[#FF6600]" : "hover:text-[#FF6600]"}`}>
+                          <NavigationMenuLink asChild className={`group  ${path === a.href ? "text-[#FF6600]" : "hover:text-[#FF6600]"}`}>
                             <Link href={a.href}>
                               <div className="text-sm leading-none font-medium">{a.label}</div>
                               <p className="text-neutral-700 line-clamp-2 text-xs leading-snug">{a.desc}</p>
@@ -157,7 +157,7 @@ export default function Navbar() {
                 <NavigationMenuItem>
                   <NavigationMenuLink asChild>
                     <Link href="/#galeria" aria-label="Galeria">
-                      <Button aria-label="Galeria" variant={"link"} className="cursor-pointer px-0 border-neutral-300 text-base group hover:text-[#FF6600]">
+                      <Button aria-label="Galeria" variant={"link"} className="cursor-pointer px-0 bg-transparent border-neutral-300 text-base group hover:text-[#FF6600]">
                         Galeria
                       </Button>
                     </Link>
